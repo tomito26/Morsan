@@ -4,7 +4,7 @@ import { CalendarDays, ChevronRight } from "lucide-react";
 import Image from "next/image";
 import { news_updates } from "@/lib/constants";
 
-const NewsUpdates = () => {
+const NewsUpdatesSection = () => {
 
   return (
     <div className="md:px-[40px] lg:px-[60px] xl:px-[100px] 2xl:px-[160px] 3xl:px-[200px] 4xl:px-[240px] 5xl:px-[320px] px-4 py-16">
@@ -62,4 +62,4 @@ const NewsUpdates = () => {
   );
 };
 
-export default NewsUpdates;
+export default NewsUpdatesSection;
