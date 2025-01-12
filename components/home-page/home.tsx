@@ -1,6 +1,9 @@
 import React from "react";
 import HeroSection from "@/components/lib/hero-section";
 import AboutSection from "./about-section";
+import OurServicesSection from "./our-services-section";
+import WhyChooseUs from "./why-choose-us";
+import IndustriesServed from "./industries-served";
 
 const HomePage = () => {
   return (
@@ -8,7 +11,7 @@ const HomePage = () => {
       <HeroSection
         hero={{
           image:
-            "/assets/happy-confident-business-team-posing-with-arms-folded.jpg",
+            "/assets/authentic-small-youthful-marketing.jpg",
           title:
             " Empowering Workplaces: Innovative HR Solutions for a Thriving Future",
           description: ` Morsan HR Consulting Firm is a leading human resource consultancy
@@ -17,6 +20,9 @@ const HomePage = () => {
         }}
       />
       <AboutSection/>
+      <OurServicesSection/>
+      <WhyChooseUs/>
+      <IndustriesServed/>
     </div>
   );
 };

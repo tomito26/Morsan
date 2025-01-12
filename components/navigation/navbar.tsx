@@ -39,8 +39,8 @@ const Navbar = () => {
           <Link href="/">
             <div className="w-[200px] h-[100px] relative">
               <Image
-                src="/assets/Workforcelogo.svg"
-                alt="Workforce Africa logo"
+                src="/assets/morsanhr.svg"
+                alt="Morsan HR "
                 fill
                 className="absolute"
                 priority
@@ -107,7 +107,7 @@ const Navbar = () => {
                       >
                         <div className="group  flex items-center">
                           <div className="relative">
-                            <p className="text-sm text-white relative hover:text-white">
+                            <p className="text-sm text-white font-medium relative hover:text-white">
                               {title}
                             </p>
                             <div
