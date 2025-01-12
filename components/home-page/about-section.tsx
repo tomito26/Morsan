@@ -10,10 +10,10 @@ const AboutSection = () => {
     "Customized Training and Development Programs",
   ];
   return (
-    <div className="flex gap-10 md:px-[40px] lg:px-[60px] xl:px-[100px] 2xl:px-[160px] 3xl:px-[200px] 4xl:px-[240px] 5xl:px-[320px] px-4 py-16">
-      <div className="flex-1 grid grid-cols-2 gap-5">
-        <div className="">
-          <div className="w-full h-[250px] relative mb-2">
+    <div className="flex flex-col-reverse md:flex-row gap-10 md:px-[40px] lg:px-[60px] xl:px-[100px] 2xl:px-[160px] 3xl:px-[200px] 4xl:px-[240px] 5xl:px-[320px] px-4 py-16">
+      <div className="flex-1 grid grid-cols-1 md:grid-cols-2 gap-5">
+        <div className="w-full">
+          <div className="w-full h-[250px] relative mb-2 hidden md:block">
             <Image
               src="/assets/afro-american-man-suit-holding-documents-talking-female-boss.jpg"
               alt="afro-american-man-suit-holding-documents-talking-female-boss"
@@ -21,7 +21,7 @@ const AboutSection = () => {
               className="absolute object-cover"
             />
           </div>
-          <div className="w-full h-[250px] relative">
+          <div className="w-full h-[250px] relative hidden md:block">
             <Image
               src="/assets/authentic-small-youthful-marketing-agency (1).jpg"
               alt="afro-american-man-suit-holding-documents-talking-female-boss"
@@ -39,7 +39,7 @@ const AboutSection = () => {
               className="absolute object-cover"
             />
           </div>
-          <div className="w-full h-[250px] relative">
+          <div className="w-full h-[250px] relative hidden md:block">
             <Image
               src="/assets/serious-coworkers-discussing-reports-outdoor-cafe.jpg"
               alt="afro-american-man-suit-holding-documents-talking-female-boss"
@@ -53,7 +53,7 @@ const AboutSection = () => {
         <h1 className="text-[#0B2E4A] font-bold uppercase text-sm">
           Who We Are
         </h1>
-        <h2 className="text-5xl font-bold text-monochrome my-4">
+        <h2 className="text-2xl md:text-5xl font-bold text-monochrome my-4">
           Simplifying HR, Maximizing Your ROI.
         </h2>
         <p className="text-base">

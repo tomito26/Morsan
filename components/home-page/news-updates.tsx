@@ -23,7 +23,7 @@ const NewsUpdates = () => {
   ];
   return (
     <div className="md:px-[40px] lg:px-[60px] xl:px-[100px] 2xl:px-[160px] 3xl:px-[200px] 4xl:px-[240px] 5xl:px-[320px] px-4 py-16">
-      <div className="flex justify-between">
+      <div className="flex md:flex-row flex-col justify-between">
         <div>
           <h1 className="text-[#0B2E4A] font-bold uppercase text-sm">
             News Updates
@@ -32,7 +32,7 @@ const NewsUpdates = () => {
             Read Our Latest Articles, Tips & News
           </h2>
         </div>
-        <div className="">
+        <div className="mb-3 md:mb-0">
           <Link
             href="/news-updates"
             className="text-base text-[#0B2E4A] hover:text-[#0B2E4A]/80 font-medium inline-block"
@@ -42,9 +42,9 @@ const NewsUpdates = () => {
           <ChevronRight className="h-4 w-4 stroke-[#0B2E4A] inline-block" />
         </div>
       </div>
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {news_updates.map((news, index) => (
-          <div className="" key={index}>
+          <div className="shadow-sm" key={index}>
             <div className="h-[250px] w-full relative">
               <Image
                 src={news.image}

@@ -36,8 +36,8 @@ const WhyChooseUs = () => {
     },
   ];
   return (
-    <div className="bg-[#0B2E4A] flex-row-reverse flex w-full gap-10">
-      <div className="h-auto w-1/2 relative shrink-0">
+    <div className="bg-[#0B2E4A] flex-col-reverse md:flex-row-reverse flex w-full gap-10">
+      <div className="h-[300px] md:h-auto w-full md:w-1/2 relative shrink-0">
         <Image
           src="/assets/successful-business-team-posing-office-hall.jpg"
           fill
@@ -45,7 +45,7 @@ const WhyChooseUs = () => {
           className="absolute object-cover shrink-0"
         />
       </div>
-      <div className="flex-1 py-16 xl:pl-[100px] 2xl:pl-[160px] 3xl:pl-[200px] 4xl:pl[240px] 5xl:pl-[320px]">
+      <div className="flex-1 py-16 xl:pl-[100px] 2xl:pl-[160px] 3xl:pl-[200px] 4xl:pl[240px] 5xl:pl-[320px] px-4">
         <div className="flex-1">
           <h1 className="text-white uppercase font-bold text-sm">
             Why Choose Us
