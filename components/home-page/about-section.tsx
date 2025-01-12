@@ -1,14 +1,10 @@
 import React from "react";
 import Image from "next/image";
 import { CircleCheck } from "lucide-react";
+import { benefits } from "@/lib/constants";
 
 const AboutSection = () => {
-  const benefits = [
-    "Attract Top Talent",
-    "Streamlined Recruitment Process",
-    "Enhanced Employee Retention",
-    "Customized Training and Development Programs",
-  ];
+ 
   return (
     <div className="flex flex-col-reverse md:flex-row gap-10 md:px-[40px] lg:px-[60px] xl:px-[100px] 2xl:px-[160px] 3xl:px-[200px] 4xl:px-[240px] 5xl:px-[320px] px-4 py-16">
       <div className="flex-1 grid grid-cols-1 md:grid-cols-2 gap-5">

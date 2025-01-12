@@ -2,25 +2,10 @@ import React from "react";
 import Link from "next/link";
 import { CalendarDays, ChevronRight } from "lucide-react";
 import Image from "next/image";
+import { news_updates } from "@/lib/constants";
 
 const NewsUpdates = () => {
-  const news_updates = [
-    {
-      title: "HR Compliance Made Simple: Avoiding Common Legal Pitfalls",
-      image:
-        "/assets/law-enforcement-agents-sitting-flooor-investigating-crime-together-african-american-man-woman-detective-partners-analyzing-case-files-drinking-coffee-night-time.jpg",
-    },
-    {
-      title:
-        "Transforming Performance Management: Best Practices for Modern Organizations",
-      image: "/assets/front-view-smiley-man-doing-presentation-meeting.jpg",
-    },
-    {
-      title:
-        "Workplace Wellness: Prioritizing Mental Health for a Thriving Workforce",
-      image: "/assets/diverse-team-vr-developers-chatting-while-testing-product.jpg"
-    },
-  ];
+
   return (
     <div className="md:px-[40px] lg:px-[60px] xl:px-[100px] 2xl:px-[160px] 3xl:px-[200px] 4xl:px-[240px] 5xl:px-[320px] px-4 py-16">
       <div className="flex md:flex-row flex-col justify-between">
