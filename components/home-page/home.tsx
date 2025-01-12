@@ -4,6 +4,8 @@ import AboutSection from "./about-section";
 import OurServicesSection from "./our-services-section";
 import WhyChooseUs from "./why-choose-us";
 import IndustriesServed from "./industries-served";
+import Metrics from "./metrics";
+import NewsUpdates from "./news-updates";
 
 const HomePage = () => {
   return (
@@ -23,6 +25,8 @@ const HomePage = () => {
       <OurServicesSection/>
       <WhyChooseUs/>
       <IndustriesServed/>
+      <Metrics/>
+      <NewsUpdates/>
     </div>
   );
 };

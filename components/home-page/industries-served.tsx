@@ -47,12 +47,12 @@ const IndustriesServed = () => {
       </h2>
       <div className="grid grid-cols-3 gap-6 h-full mt-6">
         {industries.map((industry) => (
-          <div className="h-[360px] w-full relative" key={industry.name}>
+          <div className="h-[300px] w-full relative rounded-md" key={industry.name}>
             <Image
               src={industry.image}
               alt={industry.name}
               fill
-              className="absolute object-cover"
+              className="absolute object-cover rounded-md"
             />
             <div className="h-full flex pb-6 pl-6 items-end w-full bg-gradient-to-b absolute from-transparent to-black/80 hover:to-[#0B2E4A]/80  z-10">
             <div>
