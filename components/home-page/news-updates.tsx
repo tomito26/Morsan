@@ -7,7 +7,7 @@ import { news_updates } from "@/lib/constants";
 const NewsUpdatesSection = () => {
 
   return (
-    <div className="md:px-[40px] lg:px-[60px] xl:px-[100px] 2xl:px-[160px] 3xl:px-[200px] 4xl:px-[240px] 5xl:px-[320px] px-4 py-16">
+    <div className="md:px-[40px] lg:px-[60px] xl:px-[100px] 2xl:px-[160px] 3xl:px-[200px] 4xl:px-[240px] 5xl:px-[320px] px-4 pt-16 pb-20">
       <div className="flex md:flex-row flex-col justify-between">
         <div>
           <h1 className="text-[#0B2E4A] font-bold uppercase text-sm">

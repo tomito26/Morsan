@@ -5,6 +5,7 @@ import Metrics from "./metrics";
 import NewsUpdatesSection from "./news-updates";
 import OurServicesSection from "./our-services-section";
 import WhyChooseUs from "./why-choose-us";
+import Testimonials from "./testimonials";
 
 const HomePage = () => {
   return (
@@ -25,6 +26,7 @@ const HomePage = () => {
       <WhyChooseUs/>
       <IndustriesServed/>
       <Metrics/>
+      <Testimonials/>
       <NewsUpdatesSection/>
     </div>
   );
