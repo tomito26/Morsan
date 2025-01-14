@@ -7,8 +7,8 @@ const TalentManagement = () => {
       <HeroSection
         hero={{
           image: "/assets/authentic-small-youthful-marketing.jpg",
-          title: "News Updates",
-          description: `Home > News Updates`,
+          title: "Talent Management",
+          description: `Home > Talent Management`,
         }}
         callToAction={false}
         className="h-[64vh]"

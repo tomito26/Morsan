@@ -37,6 +37,33 @@ export const links = [
   },
 ];
 
+export const testimonials = [
+  {
+    id: 1,
+    testimony:
+      "MonsarHR has been a crucial partner for our business. Their expertise in recruitment and performance management helped us build a strong, talented team. They truly understand our needs and deliver solutions that work.",
+    client: {
+      name: "Emily Thompson",
+      title: "Managing Director",
+      company: "Nova Designs",
+      profile_photo_url:
+        "/assets/pexels-divinetechygirl-1181519.jpg",
+    },
+  },
+  {
+    id: 1,
+    testimony:
+      "Outsourcing our HR functions to MonsarHR was the best decision we made. Their team handles everything, from payroll to compliance, with unmatched professionalism and attention to detail. It has allowed us to focus on growing our business.",
+    client: {
+      name: "Michael T.",
+      title: "CEO",
+      company: "GreenEdge Enterprises",
+      profile_photo_url:
+        "/assets/pexels-spencer-selover-142259-428333.jpg",
+    },
+  },
+];
+
 export const metrics = [
   {
     title: "10+",
