@@ -11,7 +11,7 @@ const AboutUs = () => {
        <HeroSection
         hero={{
           image:
-            "/assets/authentic-small-youthful-marketing.jpg",
+            "/assets/happy-african-american-business-woman-waving-hello.jpg",
           title:
             "About Us",
           description: `Home > About Us`

@@ -12,7 +12,7 @@ const HeroSection = ({
   className?: string;
 }) => {
   return (
-    <div className={cn("h-[84vh] w-full relative", className)}>
+    <div className={cn("h-[90vh] w-full relative", className)}>
       <Image
         src={hero.image}
         alt="Morsan Hr Landing page"
