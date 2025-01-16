@@ -53,7 +53,7 @@ const ContactUsForm = () => {
   return (
         <div className="shrink-0 ">
           <h3 className="text-monochrome text-xl font-bold mb-3">
-            Send A Message
+            Send Us A Message
           </h3>
           <Form {...form}>
             <form onSubmit={form.handleSubmit(handleSendMessage)} className="lg:w-[500px] w-full">
