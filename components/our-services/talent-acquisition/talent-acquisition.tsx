@@ -14,9 +14,9 @@ const TalentAcquisition = () => {
         callToAction={false}
         className="h-[64vh]"
       />
-      <div className="md:px-[40px] lg:px-[60px] xl:px-[100px] 2xl:px-[160px] 3xl:px-[200px] 4xl:px-[240px] 5xl:px-[320px] px-4 pt-20 pb-24">
-        <div className="flex gap-6 items-center mb-8">
-          <div className="h-[360px] w-[400px] relative flex-1">
+      <div className="md:px-[40px] lg:px-[60px] xl:px-[100px] 2xl:px-[160px] 3xl:px-[200px] 4xl:px-[240px] 5xl:px-[320px] px-4 pt-16 md:pt-20 pb-24">
+        <div className="flex flex-col-reverse md:flex-row gap-6 items-center mb-8">
+          <div className="md:h-[360px] h-[240px] md:w-[400px] w-full relative md:flex-1">
             <Image
               src="/assets/benefits-of-hr-outsourcing-genesis-hr.jpg"
               fill
@@ -25,7 +25,7 @@ const TalentAcquisition = () => {
             />
           </div>
           <div className="flex-1">
-            <h2 className="text-monochrome font-bold text-5xl">Recruitment</h2>
+            <h2 className="text-monochrome font-bold text-2xl md:text-5xl">Recruitment</h2>
             <p className="text-base mt-3">
               Our recruitment services are designed to help organizations find
               the right talent for their teams. We take a comprehensive
@@ -40,8 +40,8 @@ const TalentAcquisition = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-row-reverse gap-6 items-center mb-8">
-          <div className="h-[360px] w-[400px] relative flex-1">
+        <div className="flex flex-col-reverse md:flex-row-reverse gap-6 items-center mb-8">
+          <div className="md:h-[360px] h-[240px] md:w-[400px] w-full relative md:flex-1">
             <Image
               src="/assets/istock-90868745-large-spxmmo.jpeg"
               fill
@@ -50,7 +50,7 @@ const TalentAcquisition = () => {
             />
           </div>
           <div className="flex-1">
-            <h2 className="text-monochrome font-bold text-5xl">
+            <h2 className="text-monochrome font-bold text-2xl md:text-5xl">
               Executive Search
             </h2>
             <p className="text-base mt-3">
@@ -67,8 +67,8 @@ const TalentAcquisition = () => {
             </p>
           </div>
         </div>
-        <div className="flex gap-6 items-center mb-8">
-          <div className="h-[360px] w-[400px] relative flex-1">
+        <div className="flex flex-col-reverse  md:flex-row gap-6 items-center mb-8">
+          <div className="md:h-[360px] h-[240px] md:w-[400px] w-full relative md:flex-1">
             <Image
               src="/assets/Background-Verification-Process-in-MNCs.jpeg"
               fill
@@ -77,7 +77,7 @@ const TalentAcquisition = () => {
             />
           </div>
           <div className="flex-1">
-            <h2 className="text-monochrome font-bold text-5xl">
+            <h2 className="text-monochrome font-bold text-2xl md:text-5xl">
               Background Checks
             </h2>
             <p className="text-base mt-3">
@@ -93,8 +93,8 @@ const TalentAcquisition = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-row-reverse gap-6 items-center mb-8">
-          <div className="h-[360px] w-[400px] relative flex-1">
+        <div className="flex flex-col-reverse md:flex-row-reverse gap-6 items-center mb-8">
+          <div className="md:h-[360px] h-[240px] w-full md:w-[400px] relative md:flex-1">
             <Image
               src="/assets/professional-businessman-using-sticky-notes-whiteboard-thinking-ideas-business-strategy-plan-business-concept.jpg"
               fill
@@ -103,7 +103,7 @@ const TalentAcquisition = () => {
             />
           </div>
           <div className="flex-1">
-            <h2 className="text-monochrome font-bold text-5xl">
+            <h2 className="text-monochrome font-bold text-2xl md:text-5xl">
               Psychometric Assessments
             </h2>
             <p className="text-base mt-3">

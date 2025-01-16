@@ -14,9 +14,9 @@ const HumanResourceSupport = () => {
         callToAction={false}
         className="h-[64vh]"
       />
-      <div className="md:px-[40px] lg:px-[60px] xl:px-[100px] 2xl:px-[160px] 3xl:px-[200px] 4xl:px-[240px] 5xl:px-[320px] px-4 pt-20 pb-24">
-        <div className="flex gap-6 items-center mb-8">
-          <div className="h-[360px] w-[400px] relative flex-1">
+      <div className="md:px-[40px] lg:px-[60px] xl:px-[100px] 2xl:px-[160px] 3xl:px-[200px] 4xl:px-[240px] 5xl:px-[320px] px-4 pt-16 md:pt-20 pb-24">
+        <div className="flex flex-col-reverse md:flex-row gap-6 items-center mb-8">
+          <div className="md:h-[360px] h-[240px] w-full md:w-[400px] relative md:flex-1">
             <Image
               src="/assets/felix-blog-img.jpg"
               fill
@@ -25,7 +25,7 @@ const HumanResourceSupport = () => {
             />
           </div>
           <div className="flex-1">
-            <h2 className="text-monochrome font-bold text-5xl">HR Audit</h2>
+            <h2 className="text-monochrome font-bold text-2xl md:text-5xl">HR Audit</h2>
             <p className="text-base mt-3">
               Our HR Audit service helps organizations assess the effectiveness
               of their HR practices and identify areas for improvement. We
@@ -39,8 +39,8 @@ const HumanResourceSupport = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-row-reverse gap-6 items-center mb-8">
-          <div className="h-[360px] w-[400px] relative flex-1">
+        <div className="flex flex-col-reverse md:flex-row-reverse gap-6 items-center mb-8">
+          <div className="md:h-[360px] h-[240px] w-full md:w-[400px] relative md:flex-1">
             <Image
               src="/assets/HR-Consultancy-Services-in-Africa-edited.webp"
               fill
@@ -49,7 +49,7 @@ const HumanResourceSupport = () => {
             />
           </div>
           <div className="flex-1">
-            <h2 className="text-monochrome font-bold text-5xl">
+            <h2 className="text-monochrome font-bold text-2xl md:text-5xl">
               HR Consultancy
             </h2>
             <p className="text-base mt-3">
@@ -66,8 +66,8 @@ const HumanResourceSupport = () => {
             </p>
           </div>
         </div>
-        <div className="flex gap-6 items-center mb-8">
-          <div className="h-[360px] w-[400px] relative flex-1">
+        <div className="flex flex-col-reverse md:flex-row gap-6 items-center mb-8">
+          <div className="md:h-[360px] h-[240px] w-full md:w-[400px] relative md:flex-1">
             <Image
               src="/assets/ethnic-businessman-gesturing-thumb-up.jpg"
               fill
@@ -76,7 +76,7 @@ const HumanResourceSupport = () => {
             />
           </div>
           <div className="flex-1">
-            <h2 className="text-monochrome font-bold text-5xl">
+            <h2 className="text-monochrome font-bold text-2xl md:text-5xl">
               Outplacement Services
             </h2>
             <p className="text-base mt-3">
