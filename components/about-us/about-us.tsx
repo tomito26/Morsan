@@ -1,6 +1,9 @@
 import React from 'react'
 import HeroSection from '../lib/hero-section'
 import AboutSection from '../home-page/about-section'
+import OurPhilosophiesSections from './our-philosophies-sections'
+import OurValuesSection from './our-values-section'
+import HowWeWork from './how-we-work'
 
 const AboutUs = () => {
   return (
@@ -17,6 +20,9 @@ const AboutUs = () => {
         className="h-[64vh]"
       />
       <AboutSection/>
+      <OurPhilosophiesSections/>
+      <OurValuesSection/>
+      <HowWeWork/>
     </div>
   )
 }
