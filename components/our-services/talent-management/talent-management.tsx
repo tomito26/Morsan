@@ -7,7 +7,7 @@ const TalentManagement = () => {
     <div>
       <HeroSection
         hero={{
-          image: "/assets/authentic-small-youthful-marketing.jpg",
+          image: "/assets/Outsourced-HR.jpg",
           title: "Talent Management",
           description: `Home > Talent Management`,
         }}
@@ -18,7 +18,7 @@ const TalentManagement = () => {
         <div className="flex gap-6 items-center">
           <div className="h-[360px] w-[400px] relative flex-1">
             <Image
-              src="/assets/job-recruitment.jpg"
+              src="/assets/employer-of-record.webp"
               fill
               alt="recruitment"
               className="object-cover object-center absolute"
@@ -29,7 +29,7 @@ const TalentManagement = () => {
               Employer of Records
             </h2>
             <p className="text-base mt-3">
-              MonsarHR offers Employer of Record services to simplify the
+              We offer Employer of Record services to simplify the
               complexities of global employment. As your EOR, we take on the
               legal responsibility for employing your staff, including handling
               employment contracts, compliance with labor laws, tax filings, and
@@ -55,7 +55,7 @@ const TalentManagement = () => {
               Labour Outsourcing
             </h2>
             <p className="text-base mt-3">
-              With MonsarHR&apos;s Employee Outsourcing services, your
+              With our Employee Outsourcing services, your
               organization can enjoy flexibility and efficiency in managing your
               workforce. We handle the recruitment, onboarding, and management
               of outsourced employees while you focus on your core business
@@ -70,7 +70,7 @@ const TalentManagement = () => {
         <div className="flex gap-6 items-center">
           <div className="h-[360px] w-[400px] relative flex-1">
             <Image
-              src="/assets/Background-Verification-Process-in-MNCs.jpeg"
+              src="/assets/portfolio-3.jpg"
               fill
               alt="recruitment"
               className="object-cover object-center absolute"
@@ -109,7 +109,7 @@ const TalentManagement = () => {
             <p className="text-base mt-3">
               Understanding a candidate&apos;s personality, cognitive abilities,
               and behavioral tendencies is crucial for making successful hiring
-              decisions. MonsarHR&apos;s psychometric assessments provide
+              decisions.Our psychometric assessments provide
               detailed insights into how candidates think, act, and interact.
               Our services include cognitive ability tests to assess
               problem-solving and decision-making skills, personality profiling

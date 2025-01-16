@@ -7,7 +7,7 @@ const HumanResourceSupport = () => {
     <div>
       <HeroSection
         hero={{
-          image: "/assets/authentic-small-youthful-marketing.jpg",
+          image: "/assets/portrait-successful-young-businesswoman-with-colleagues.jpg",
           title: "Human Resource Support",
           description: `Home > Human Resource Support`,
         }}
@@ -15,10 +15,10 @@ const HumanResourceSupport = () => {
         className="h-[64vh]"
       />
       <div className="md:px-[40px] lg:px-[60px] xl:px-[100px] 2xl:px-[160px] 3xl:px-[200px] 4xl:px-[240px] 5xl:px-[320px] px-4 pt-20 pb-24">
-        <div className="flex gap-6 items-center">
+        <div className="flex gap-6 items-center mb-8">
           <div className="h-[360px] w-[400px] relative flex-1">
             <Image
-              src="/assets/job-recruitment.jpg"
+              src="/assets/felix-blog-img.jpg"
               fill
               alt="recruitment"
               className="object-cover object-center absolute"
@@ -39,10 +39,10 @@ const HumanResourceSupport = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-row-reverse gap-6 items-center">
+        <div className="flex flex-row-reverse gap-6 items-center mb-8">
           <div className="h-[360px] w-[400px] relative flex-1">
             <Image
-              src="/assets/istock-90868745-large-spxmmo.jpeg"
+              src="/assets/HR-Consultancy-Services-in-Africa-edited.webp"
               fill
               alt="recruitment"
               className="object-cover object-center absolute"
@@ -66,10 +66,10 @@ const HumanResourceSupport = () => {
             </p>
           </div>
         </div>
-        <div className="flex gap-6 items-center">
+        <div className="flex gap-6 items-center mb-8">
           <div className="h-[360px] w-[400px] relative flex-1">
             <Image
-              src="/assets/Background-Verification-Process-in-MNCs.jpeg"
+              src="/assets/ethnic-businessman-gesturing-thumb-up.jpg"
               fill
               alt="recruitment"
               className="object-cover object-center absolute"
