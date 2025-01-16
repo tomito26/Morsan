@@ -14,9 +14,9 @@ const TalentManagement = () => {
         callToAction={false}
         className="h-[64vh]"
       />
-      <div className="md:px-[40px] lg:px-[60px] xl:px-[100px] 2xl:px-[160px] 3xl:px-[200px] 4xl:px-[240px] 5xl:px-[320px] px-4 pt-20 pb-24">
-        <div className="flex gap-6 items-center">
-          <div className="h-[360px] w-[400px] relative flex-1">
+      <div className="md:px-[40px] lg:px-[60px] xl:px-[100px] 2xl:px-[160px] 3xl:px-[200px] 4xl:px-[240px] 5xl:px-[320px] px-4 pt-16 md:pt-20 pb-24">
+        <div className="flex flex-col-reverse md:flex-row gap-6 items-center mb-8">
+          <div className="md:h-[360px] h-[240px] w-full md:w-[400px] relative md:flex-1">
             <Image
               src="/assets/employer-of-record.webp"
               fill
@@ -25,7 +25,7 @@ const TalentManagement = () => {
             />
           </div>
           <div className="flex-1">
-            <h2 className="text-monochrome font-bold text-5xl">
+            <h2 className="text-monochrome font-bold text-2xl md:text-5xl">
               Employer of Records
             </h2>
             <p className="text-base mt-3">
@@ -41,8 +41,8 @@ const TalentManagement = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-row-reverse gap-6 items-center">
-          <div className="h-[360px] w-[400px] relative flex-1">
+        <div className="flex flex-col-reverse md:flex-row-reverse gap-6 items-center mb-8">
+          <div className="md:h-[360px] h-[240px] w-full md:w-[400px] relative md:flex-1">
             <Image
               src="/assets/istock-90868745-large-spxmmo.jpeg"
               fill
@@ -51,7 +51,7 @@ const TalentManagement = () => {
             />
           </div>
           <div className="flex-1">
-            <h2 className="text-monochrome font-bold text-5xl">
+            <h2 className="text-monochrome font-bold text-2xl md:text-5xl">
               Labour Outsourcing
             </h2>
             <p className="text-base mt-3">
@@ -67,8 +67,8 @@ const TalentManagement = () => {
             </p>
           </div>
         </div>
-        <div className="flex gap-6 items-center">
-          <div className="h-[360px] w-[400px] relative flex-1">
+        <div className="flex gap-6 flex-col-reverse md:flex-row items-center mb-8">
+          <div className="md:h-[360px] h-[240px] w-full md:w-[400px] relative md:flex-1">
             <Image
               src="/assets/portfolio-3.jpg"
               fill
@@ -77,7 +77,7 @@ const TalentManagement = () => {
             />
           </div>
           <div className="flex-1">
-            <h2 className="text-monochrome font-bold text-5xl">
+            <h2 className="text-monochrome font-bold text-2xl md:text-5xl">
               Payroll Outsourcing
             </h2>
             <p className="text-base mt-3">
@@ -93,8 +93,8 @@ const TalentManagement = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-row-reverse gap-6 items-center">
-          <div className="h-[360px] w-[400px] relative flex-1">
+        <div className="flex flex-col-reverse md:flex-row-reverse gap-6 items-center mb-8">
+          <div className="md:h-[360px] h-[240px] w-full md:w-[400px] relative md:flex-1">
             <Image
               src="/assets/professional-businessman-using-sticky-notes-whiteboard-thinking-ideas-business-strategy-plan-business-concept.jpg"
               fill
@@ -103,7 +103,7 @@ const TalentManagement = () => {
             />
           </div>
           <div className="flex-1">
-            <h2 className="text-monochrome font-bold text-5xl">
+            <h2 className="text-monochrome font-bold text-2xl md:text-5xl">
               Psychometric Assessments
             </h2>
             <p className="text-base mt-3">
