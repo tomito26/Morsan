@@ -7,14 +7,22 @@ const Careers = () => {
        <HeroSection
         hero={{
           image:
-            "/assets/authentic-small-youthful-marketing.jpg",
+            "/assets/jobsuche.jpg",
           title:
             "Careers",
-          description: `Home > About Us`
+          description: `Home > Careers   `
         }}
         callToAction={false}
-        className="h-[64vh]"
+        className="h-[60vh]"
       />
+      <div className='md:px-[40px] lg:px-[60px] xl:px-[100px] 2xl:px-[160px] 3xl:px-[200px] 4xl:px-[240px] 5xl:px-[320px] px-4 py-20'>
+        <div>
+
+        </div>
+        <div>
+
+        </div>
+      </div>
     </div>
   )
 }
