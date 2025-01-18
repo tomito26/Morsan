@@ -1,6 +1,7 @@
 import HeroSection from "@/components/lib/hero-section";
 import React from "react";
 import Image from "next/image";
+import CallToAction from "@/components/lib/call-to-action";
 
 const TalentManagement = () => {
   return (
@@ -93,35 +94,8 @@ const TalentManagement = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-col-reverse md:flex-row-reverse gap-6 items-center mb-8">
-          <div className="md:h-[360px] h-[240px] w-full md:w-[400px] relative md:flex-1">
-            <Image
-              src="/assets/professional-businessman-using-sticky-notes-whiteboard-thinking-ideas-business-strategy-plan-business-concept.jpg"
-              fill
-              alt="recruitment"
-              className="object-cover object-center absolute"
-            />
-          </div>
-          <div className="flex-1">
-            <h2 className="text-monochrome font-bold text-2xl md:text-5xl">
-              Psychometric Assessments
-            </h2>
-            <p className="text-base mt-3">
-              Understanding a candidate&apos;s personality, cognitive abilities,
-              and behavioral tendencies is crucial for making successful hiring
-              decisions.Our psychometric assessments provide
-              detailed insights into how candidates think, act, and interact.
-              Our services include cognitive ability tests to assess
-              problem-solving and decision-making skills, personality profiling
-              to evaluate teamwork and leadership potential, and behavioral
-              assessments to gauge performance under specific conditions. These
-              tools help you identify individuals who are not only technically
-              competent but also a strong cultural fit for your organization,
-              ensuring long-term success.
-            </p>
-          </div>
-        </div>
       </div>
+      <CallToAction/>
     </div>
   );
 };

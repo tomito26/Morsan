@@ -29,23 +29,23 @@ const NewsUpdatesSection = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {news_updates.map((news, index) => (
-          <div className="shadow-sm" key={index}>
-            <div className="h-[250px] w-full relative">
+          <div className="shadow-md hover:shadow-lg rounded-md" key={index}>
+            <div className="h-[250px] w-full relative rounded-t-md">
               <Image
                 src={news.image}
                 alt={news.title}
                 fill
-                className="object-cover absolute object-center"
+                className="object-cover absolute object-center rounded-t-md"
               />
             </div>
-            <Link href="#">
-              <h1 className="text-lg font-bold mt-5 hover:text-[#0B2E4A]">
+            <Link href="#" className="mt-5">
+              <h1 className="text-lg font-bold  hover:text-[#0B2E4A] px-4">
                 {news.title.length > 60
                   ? `${news.title.substring(0, 60)}...`
                   : news.title}
               </h1>
             </Link>
-            <p className="flex items-center gap-2">
+            <p className="flex items-center gap-2 px-4 mb-3">
               <CalendarDays className="h-5 w-5" />
               <span>
                 {new Date().toLocaleDateString("en", {

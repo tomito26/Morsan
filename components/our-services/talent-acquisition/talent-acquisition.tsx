@@ -1,6 +1,7 @@
 import HeroSection from "@/components/lib/hero-section";
 import React from "react";
 import Image from "next/image";
+import CallToAction from "@/components/lib/call-to-action";
 
 const TalentAcquisition = () => {
   return (
@@ -122,6 +123,7 @@ const TalentAcquisition = () => {
           </div>
         </div>
       </div>
+      <CallToAction/>
     </div>
   );
 };

@@ -1,13 +1,15 @@
 import HeroSection from "@/components/lib/hero-section";
 import React from "react";
 import Image from "next/image";
+import CallToAction from "@/components/lib/call-to-action";
 
 const HumanResourceSupport = () => {
   return (
     <div>
       <HeroSection
         hero={{
-          image: "/assets/portrait-successful-young-businesswoman-with-colleagues.jpg",
+          image:
+            "/assets/portrait-successful-young-businesswoman-with-colleagues.jpg",
           title: "Human Resource Support",
           description: `Home > Human Resource Support`,
         }}
@@ -25,7 +27,9 @@ const HumanResourceSupport = () => {
             />
           </div>
           <div className="flex-1">
-            <h2 className="text-monochrome font-bold text-2xl md:text-5xl">HR Audit</h2>
+            <h2 className="text-monochrome font-bold text-2xl md:text-5xl">
+              HR Audit
+            </h2>
             <p className="text-base mt-3">
               Our HR Audit service helps organizations assess the effectiveness
               of their HR practices and identify areas for improvement. We
@@ -69,6 +73,34 @@ const HumanResourceSupport = () => {
         <div className="flex flex-col-reverse md:flex-row gap-6 items-center mb-8">
           <div className="md:h-[360px] h-[240px] w-full md:w-[400px] relative md:flex-1">
             <Image
+              src="/assets/1520113146524.jpeg"
+              fill
+              alt="recruitment"
+              className="object-cover object-center absolute"
+            />
+          </div>
+          <div className="flex-1">
+            <h2 className="text-monochrome font-bold text-2xl md:text-5xl">
+            Job Evaluation and Salary Survey
+            </h2>
+            <p className="text-base mt-3">
+              Our Job Evaluation and Salary Survey service helps organizations
+              establish fair, competitive, and equitable compensation
+              structures. We assess the relative value of roles within your
+              organization through systematic job evaluation methods, ensuring
+              alignment with industry standards. By conducting comprehensive
+              salary surveys, we provide insights into market trends and
+              benchmarks, enabling you to attract and retain top talent while
+              maintaining internal equity. This service empowers you to make
+              data-driven decisions about pay structures, job grading, and
+              employee benefits, fostering transparency and trust within your
+              workforce.
+            </p>
+          </div>
+        </div>
+        <div className="flex flex-col-reverse md:flex-row-reverse gap-6 items-center mb-8">
+          <div className="md:h-[360px] h-[240px] w-full md:w-[400px] relative md:flex-1">
+            <Image
               src="/assets/ethnic-businessman-gesturing-thumb-up.jpg"
               fill
               alt="recruitment"
@@ -80,8 +112,8 @@ const HumanResourceSupport = () => {
               Outplacement Services
             </h2>
             <p className="text-base mt-3">
-              When organizations face restructuring or downsizing, Outplacement
-              Services from MonsarHR provide valuable support to departing
+              When organizations face restructuring or downsizing, our
+              Outplacement Services provide valuable support to departing
               employees. We offer career transition assistance, including resume
               writing, interview coaching, job search support, and emotional
               support during the transition period. Our outplacement services
@@ -94,6 +126,7 @@ const HumanResourceSupport = () => {
           </div>
         </div>
       </div>
+      <CallToAction/>
     </div>
   );
 };
