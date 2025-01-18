@@ -26,7 +26,9 @@ const TalentAcquisition = () => {
             />
           </div>
           <div className="flex-1">
-            <h2 className="text-monochrome font-bold text-2xl md:text-5xl">Recruitment</h2>
+            <h2 className="text-monochrome font-bold text-2xl md:text-5xl">
+              Recruitment
+            </h2>
             <p className="text-base mt-3">
               Our recruitment services are designed to help organizations find
               the right talent for their teams. We take a comprehensive
@@ -108,22 +110,22 @@ const TalentAcquisition = () => {
               Psychometric Assessments
             </h2>
             <p className="text-base mt-3">
-              Understanding a candidate&apos;s personality, cognitive abilities, and
-              behavioral tendencies is crucial for making successful hiring
-              decisions. MonsarHR&apos;s psychometric assessments provide detailed
-              insights into how candidates think, act, and interact. Our
-              services include cognitive ability tests to assess problem-solving
-              and decision-making skills, personality profiling to evaluate
-              teamwork and leadership potential, and behavioral assessments to
-              gauge performance under specific conditions. These tools help you
-              identify individuals who are not only technically competent but
-              also a strong cultural fit for your organization, ensuring
-              long-term success.
+              Understanding a candidate&apos;s personality, cognitive abilities,
+              and behavioral tendencies is crucial for making successful hiring
+              decisions. MonsarHR&apos;s psychometric assessments provide
+              detailed insights into how candidates think, act, and interact.
+              Our services include cognitive ability tests to assess
+              problem-solving and decision-making skills, personality profiling
+              to evaluate teamwork and leadership potential, and behavioral
+              assessments to gauge performance under specific conditions. These
+              tools help you identify individuals who are not only technically
+              competent but also a strong cultural fit for your organization,
+              ensuring long-term success.
             </p>
           </div>
         </div>
+        <CallToAction />
       </div>
-      <CallToAction/>
     </div>
   );
 };

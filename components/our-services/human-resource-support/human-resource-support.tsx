@@ -81,7 +81,7 @@ const HumanResourceSupport = () => {
           </div>
           <div className="flex-1">
             <h2 className="text-monochrome font-bold text-2xl md:text-5xl">
-            Job Evaluation and Salary Survey
+              Job Evaluation and Salary Survey
             </h2>
             <p className="text-base mt-3">
               Our Job Evaluation and Salary Survey service helps organizations
@@ -125,8 +125,8 @@ const HumanResourceSupport = () => {
             </p>
           </div>
         </div>
+        <CallToAction />
       </div>
-      <CallToAction/>
     </div>
   );
 };
