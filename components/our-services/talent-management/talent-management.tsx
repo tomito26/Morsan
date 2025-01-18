@@ -94,8 +94,8 @@ const TalentManagement = () => {
             </p>
           </div>
         </div>
+        <CallToAction/>
       </div>
-      <CallToAction/>
     </div>
   );
 };
