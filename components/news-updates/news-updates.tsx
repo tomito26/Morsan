@@ -30,10 +30,7 @@ const NewsUpdates = () => {
               Stay updated with the latest trends, insights, and best practices
               in human resource management. Our blog covers topics like employee
               engagement, recruitment strategies, performance management,
-              workplace culture, and HR technology. Whether you&apos;re an HR
-              professional, business leader, or simply passionate about people
-              management, our articles provide valuable knowledge to help you
-              build and sustain a thriving workforce.
+              workplace culture, and HR technology.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
