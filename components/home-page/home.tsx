@@ -13,19 +13,20 @@ const HomePage = () => {
       <HeroSection
         hero={{
           image:
-            "/assets/authentic-small-youthful-marketing.jpg",
+            "/assets/Women Conversing.webp",
           title:
-            " Empowering Workplaces: Innovative HR Solutions for a Thriving Future",
+            "Empowering Workplaces: Innovative HR Solutions for a Thriving Future",
           description: ` Morsan HR Consulting Firm is a leading human resource consultancy
               dedicated to providing innovative, strategic, and tailored HR
               solutions.`,
         }}
+
       />
       <AboutSection/>
       <OurServicesSection/>
       <WhyChooseUs/>
-      <IndustriesServed/>
       <Metrics/>
+      <IndustriesServed/>
       <Testimonials/>
       <NewsUpdatesSection/>
     </div>
