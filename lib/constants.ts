@@ -190,7 +190,7 @@ export const industries = [
   {
     name: "Food and beverage industry",
     description: "Restaurants",
-    image: "/assets/Retail-Sector.jpg",
+    image: "/assets/male-baker-standing-table-with-dough-bakery.jpg",
   },
   {
     name: "Financial industry",
