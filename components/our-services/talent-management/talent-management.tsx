@@ -10,10 +10,10 @@ const TalentManagement = () => {
         hero={{
           image: "/assets/Outsourced-HR.jpg",
           title: "Talent Management",
-          description: `Home > Talent Management`,
         }}
         callToAction={false}
         className="h-[64vh]"
+        page="Talent Management"
       />
       <div className="md:px-[40px] lg:px-[60px] xl:px-[100px] 2xl:px-[160px] 3xl:px-[200px] 4xl:px-[240px] 5xl:px-[320px] px-4 pt-16 md:pt-20 pb-24">
         <div className="flex flex-col-reverse md:flex-row gap-6 items-center mb-8">

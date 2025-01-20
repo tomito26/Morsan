@@ -3,15 +3,15 @@ import Image from "next/image";
 
 const WhyChooseUs = () => {
   return (
-    <div className="bg-[#0B2E4A] flex-col items-center md:flex-row-reverse flex w-full gap-10 md:px-[40px] lg:px-[60px] xl:px-[100px] 2xl:px-[160px] 3xl:px-[200px] 4xl:px-[240px] 5xl:px-[320px] px-4 py-24">
+    <div className=" flex-col items-center md:flex-row-reverse flex w-full gap-10 md:px-[40px] lg:px-[60px] xl:px-[100px] 2xl:px-[160px] 3xl:px-[200px] 4xl:px-[240px] 5xl:px-[320px] px-4 py-24">
       <div className="flex-1">
-        <h1 className="text-white uppercase font-bold text-sm">
+        <h1 className="text-[#0B2E4A] uppercase font-bold text-sm">
           Why Choose Us
         </h1>
-        <h2 className="text-2xl md:text-5xl font-bold text-white mt-4 mb-5">
+        <h2 className="text-2xl md:text-5xl font-bold  mt-4 mb-4 text-monochrome">
           Exceptional HR Solutions, Tailored for Your Success
         </h2>
-        <p className="text-base text-white mb-6">
+        <p className="text-base  mb-6">
           We are dedicated to delivering personalized human resource solutions
           that empower businesses to excel. With a focus on efficiency,
           innovation, and measurable results, we ensure your organization
@@ -45,10 +45,10 @@ const WhyChooseUs = () => {
                     </div>
                   </div>
                   <div>
-                    <h3 className="text-lg text-white md:text-left text-center  font-bold">
+                    <h3 className="text-lg  md:text-left text-center  font-bold">
                       {benefit.title}
                     </h3>
-                    <p className="text-white md:text-left text-center  text-base ">
+                    <p className="md:text-left text-center  text-base ">
                       {benefit.description}
                     </p>
                   </div>

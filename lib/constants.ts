@@ -1,4 +1,4 @@
-import { BadgeCheck, Building2, Hourglass, Users } from "lucide-react";
+import { BadgeCheck, Briefcase, Building2, Hourglass } from "lucide-react";
 
 export const links = [
   {
@@ -74,7 +74,7 @@ export const metrics = [
     title: "100+",
     description: "Projects Completed",
     image: "/assets/Human-Resources-Team-Settings--Streamline-Ultimate.png",
-    icon: Users,
+    icon: Briefcase,
   },
   {
     title: "20+",
@@ -136,7 +136,7 @@ export const our_benefits = [
     title: "Proven Expertise",
     description:
       "Our team comprises seasoned HR professionals with extensive experience across diverse industries",
-    icon: "/assets/result.png"
+    icon: "/assets/experience.png"
   },
   {
     title: "Customized Approach",
@@ -160,7 +160,7 @@ export const our_benefits = [
     title: "Focus on Results",
     description:
       "Our strategies are designed to deliver measurable outcomes—whether it's attracting top talent, reducing turnover, or improving employee productivity.",
-    icon: "/assets/evaluation.png"
+    icon: "/assets/result.png"
   },
   // {
   //   title: "Technology Integration",
@@ -190,7 +190,7 @@ export const industries = [
   {
     name: "Food and beverage industry",
     description: "Restaurants",
-    image: "/assets/Retail-Sector.jpg",
+    image: "/assets/male-baker-standing-table-with-dough-bakery.jpg",
   },
   {
     name: "Financial industry",

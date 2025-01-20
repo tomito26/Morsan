@@ -14,10 +14,10 @@ const AboutUs = () => {
             "/assets/happy-african-american-business-woman-waving-hello.jpg",
           title:
             "About Us",
-          description: `Home > About Us`
         }}
         callToAction={false}
         className="h-[64vh]"
+        page='About Us'
       />
       <AboutSection/>
       <OurPhilosophiesSections/>

@@ -63,10 +63,11 @@ const Careers = () => {
         hero={{
           image: "/assets/jobsuche.jpg",
           title: "Careers",
-          description: `Home > Careers   `,
+
         }}
         callToAction={false}
         className="h-[48vh]"
+        page="Careers"
       />
       <div className="flex w-full gap-10 md:px-[40px] lg:px-[60px] xl:px-[100px] 2xl:px-[160px] 3xl:px-[200px] 4xl:px-[240px] 5xl:px-[320px] px-4 py-20">
         <div className="w-3/12 hidden md:block">

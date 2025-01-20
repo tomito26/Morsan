@@ -1,15 +1,19 @@
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import { ChevronRight } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 const HeroSection = ({
   hero,
   callToAction = true,
   className,
+  page,
 }: {
-  hero: { image: string; title: string; description: string };
+  hero: { image: string; title: string; description?: string };
   callToAction?: boolean;
   className?: string;
+  page?: string;
 }) => {
   return (
     <div className={cn("h-[90vh] w-full relative", className)}>
@@ -25,15 +29,22 @@ const HeroSection = ({
             {hero.title}
           </h1>
           <p className="text-white font-medium mt-3">{hero.description}</p>
-          {callToAction && (
+          {callToAction ? (
             <div className="flex h-full w-full items-center gap-4 mt-4">
-              <Button className="bg-[#0B2E4A] text-white hover:bg-[#0B2E4A]/90 font-medium">
+              <Button className="bg-[#134c7a] text-white hover:bg-[#134c7a]/90 font-medium">
                 Book A Meeting
               </Button>
-              <Button className="border-white border bg-transparent hover:bg-white hover:text-[#0B2E4A]">
-                Get Started
-              </Button>
+              <Link href={"/about"}>
+                <Button className="border-white border bg-transparent hover:bg-white hover:text-[#0B2E4A]">
+                  Get Started
+                </Button>
+              </Link>
             </div>
+          ) : (
+            <p className="flex items-center">
+              <Link href="/" className="text-white text-base font-medium">Home</Link> <ChevronRight className="h-4 w-4 stroke-white"/>
+              <span className="text-white text-base font-medium">{page}</span>
+            </p>
           )}
         </div>
       </div>
