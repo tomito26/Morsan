@@ -12,10 +12,10 @@ const NewsUpdates = () => {
         hero={{
           image: "/assets/medium-shot-man-working-home.jpg",
           title: "Our News",
-          description: `Home > News Updates`,
         }}
         callToAction={false}
         className="h-[48vh]"
+        page="News Updates"
       />
       <div>
         <div className="md:px-[40px] lg:px-[60px] xl:px-[100px] 2xl:px-[160px] 3xl:px-[200px] 4xl:px-[240px] 5xl:px-[320px] px-4 pt-16 pb-20">
