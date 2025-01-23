@@ -12,7 +12,7 @@ const IndustriesServed = () => {
       <h2 className="md:text-5xl text-2xl font-bold text-monochrome text-center">
         Diverse Solutions for Every Sector
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 h-full mt-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 h-full mt-8">
         {industries.map((industry) => (
           <div className="h-[300px] w-full relative rounded-md" key={industry.name}>
             <Image

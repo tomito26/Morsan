@@ -6,7 +6,7 @@ import { news_updates } from "@/lib/constants";
 
 const NewsUpdatesSection = () => {
   return (
-    <div className="md:px-[40px] lg:px-[60px] xl:px-[100px] 2xl:px-[160px] 3xl:px-[200px] 4xl:px-[240px] 5xl:px-[320px] px-4 pt-16 pb-20">
+    <div className="md:px-[40px] lg:px-[60px] xl:px-[100px] 2xl:px-[160px] 3xl:px-[200px] 4xl:px-[240px] 5xl:px-[320px] px-4 py-24">
       <div className="flex md:flex-row flex-col justify-between">
         <div>
           <h1 className="text-[#0B2E4A] font-bold uppercase text-sm">
@@ -29,7 +29,7 @@ const NewsUpdatesSection = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {news_updates.map((news, index) => (
           <div
-            className="shadow-md hover:shadow-lg border-l border-r border-b rounded-md "
+            className="shadow-md hover:shadow-lg border-l border-r border-b rounded-b-lg "
             key={index}
           >
             <div className="h-[250px] w-full relative rounded-t-md">
