@@ -60,8 +60,8 @@ const Navbar = () => {
         </div>
         <div
           className={cn(
-            "flex-col md:flex-row items-start md:items-center w-full md:w-auto h-full",
-            isMobileMenuOpen ? "flex" : "hidden md:flex"
+            "flex-col md:flex-row items-start md:items-center w-full md:w-auto md:h-full",
+            isMobileMenuOpen ? "flex absolute top-[80px] left-0 right-0 bg-[#0B2E4A] z-[100] pl-4 py-10" : "hidden md:flex"
           )}
         >
           <ul className="list-none flex flex-col md:flex-row items-start md:items-center w-full md:w-auto h-full">
