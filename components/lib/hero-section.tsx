@@ -28,9 +28,9 @@ const HeroSection = ({
           <h1 className="text-white font-bold md:text-6xl text-3xl ">
             {hero.title}
           </h1>
-          <p className="text-white font-medium mt-3">{hero.description}</p>
+          <p className="text-white font-medium mt-6">{hero.description}</p>
           {callToAction ? (
-            <div className="flex h-full w-full items-center gap-4 mt-4">
+            <div className="flex h-full w-full items-center gap-4 mt-6">
               <Button className="bg-[#134c7a] text-white hover:bg-[#134c7a]/90 font-medium">
                 Book A Meeting
               </Button>

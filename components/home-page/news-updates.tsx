@@ -5,7 +5,6 @@ import Image from "next/image";
 import { news_updates } from "@/lib/constants";
 
 const NewsUpdatesSection = () => {
-
   return (
     <div className="md:px-[40px] lg:px-[60px] xl:px-[100px] 2xl:px-[160px] 3xl:px-[200px] 4xl:px-[240px] 5xl:px-[320px] px-4 pt-16 pb-20">
       <div className="flex md:flex-row flex-col justify-between">
@@ -29,7 +28,10 @@ const NewsUpdatesSection = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {news_updates.map((news, index) => (
-          <div className="shadow-md hover:shadow-lg rounded-md" key={index}>
+          <div
+            className="shadow-md hover:shadow-lg border-l border-r border-b rounded-md "
+            key={index}
+          >
             <div className="h-[250px] w-full relative rounded-t-md">
               <Image
                 src={news.image}
@@ -38,23 +40,25 @@ const NewsUpdatesSection = () => {
                 className="object-cover absolute object-center rounded-t-md"
               />
             </div>
-            <Link href="#" className="mt-5">
-              <h1 className="text-lg font-bold  hover:text-[#0B2E4A] px-4">
-                {news.title.length > 60
-                  ? `${news.title.substring(0, 60)}...`
-                  : news.title}
-              </h1>
-            </Link>
-            <p className="flex items-center gap-2 px-4 mb-3">
-              <CalendarDays className="h-5 w-5" />
-              <span>
-                {new Date().toLocaleDateString("en", {
-                  month: "short",
-                  day: "numeric",
-                  year: "numeric",
-                })}
-              </span>
-            </p>
+            <div className="py-6 px-5">
+              <Link href="#" className="mb-3">
+                <h1 className="text-lg font-bold  hover:text-[#0B2E4A] ">
+                  {news.title.length > 60
+                    ? `${news.title.substring(0, 60)}...`
+                    : news.title}
+                </h1>
+              </Link>
+              <p className="flex items-center gap-2  mt-3">
+                <CalendarDays className="h-5 w-5" />
+                <span>
+                  {new Date().toLocaleDateString("en", {
+                    month: "short",
+                    day: "numeric",
+                    year: "numeric",
+                  })}
+                </span>
+              </p>
+            </div>
           </div>
         ))}
       </div>
