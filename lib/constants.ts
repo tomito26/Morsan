@@ -1,4 +1,4 @@
-import { BadgeCheck, Briefcase, Building2, Hourglass } from "lucide-react";
+import { BadgeCheck, Briefcase, Hourglass, Users } from "lucide-react";
 
 export const links = [
   {
@@ -77,10 +77,10 @@ export const metrics = [
     icon: Briefcase,
   },
   {
-    title: "20+",
-    description: "Companies",
+    title: "2000+",
+    description: "Placed Employees",
     image: "/assets/Buildings-1--Streamline-Ultimate.png",
-    icon: Building2,
+    icon: Users,
   },
 
   {
